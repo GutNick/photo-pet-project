@@ -1,0 +1,32 @@
+.app__buttons {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__button {
+    background-color: #7a25d7;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    transition: max-height 1s linear, padding 1s linear, visibility 1s linear, opacity 1s linear, margin-top 1s linear;
+    max-height: 32px;
+    overflow: hidden;
+}
+
+.app__button_hidden {
+    transition: max-height 1s linear, padding 1s linear, visibility 1s linear, opacity 1s linear, margin-top 1s linear;
+    max-height: 0;
+    padding: 0 20px;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 0;
+}
