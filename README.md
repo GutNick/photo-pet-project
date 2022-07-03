@@ -1,7 +1,7 @@
 # Pet проект Photo
 
 ## Описание:
-Приложение для просмотра фотографий с сайта [unsplash](unsplash.com). 
+Приложение для просмотра фотографий с сайта [unsplash](https://unsplash.com/). 
 
 ## Функционал:
 1. Автоматическое отображение рекомендуемых фотографий с сайта `unsplash` при загрузке страницы.
@@ -23,3 +23,6 @@
 3. Получить API KEY с сайта unsplash > [Official Unsplash API](https://unsplash.com/developers).
 4. Записать полученный ключ в константу > `ApiKey` в файле `src/utils/Constance.js`.
 5. Запустить приложение > `npm start`.
+
+## Демо:  
+[Photo Pet Project](https://gutnick.github.io/photo-pet-project/)
