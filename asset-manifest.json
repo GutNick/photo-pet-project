@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/photo-pet-project/static/css/main.12078b6d.css",
+    "main.js": "/photo-pet-project/static/js/main.134ecbcb.js",
+    "static/js/787.ff7f87ca.chunk.js": "/photo-pet-project/static/js/787.ff7f87ca.chunk.js",
+    "index.html": "/photo-pet-project/index.html",
+    "main.12078b6d.css.map": "/photo-pet-project/static/css/main.12078b6d.css.map",
+    "main.134ecbcb.js.map": "/photo-pet-project/static/js/main.134ecbcb.js.map",
+    "787.ff7f87ca.chunk.js.map": "/photo-pet-project/static/js/787.ff7f87ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12078b6d.css",
+    "static/js/main.134ecbcb.js"
+  ]
+}
