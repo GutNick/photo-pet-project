@@ -1,3 +1,4 @@
+import ApiKey from "../utils/Constance";
 class PhotoApi {
     constructor(url, authorization) {
         this._url = url;
@@ -68,5 +69,5 @@ class PhotoApi {
     }
 }
 
-const photoApi = new PhotoApi('https://api.unsplash.com', 'Client-ID eN6x-3GuRl8EVl5JGNPF59lxCWEzVruZcKK2zGyB2ZI');
+const photoApi = new PhotoApi('https://api.unsplash.com', `Client-ID ${ApiKey}`);
 export default photoApi;
